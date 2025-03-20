@@ -321,6 +321,20 @@ STEPS
 
 */
 
+.section__title {
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 10px 0;
+    letter-spacing: 0.025em;
+    padding:0 64px;
+}
+
+.section__tag {
+    padding-left: 64px;
+}
+
 .steps__row {
     display: flex;
     width: 100%;
@@ -328,16 +342,45 @@ STEPS
 
 .step {
     display: flex;
-    flex-direction: column;
+    padding: 32px 0;
+    padding-left: 64px;
 }
 
 .steps__image--wrapper {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .steps__image {
     width: 100%;
 }
 
-.steps__description {
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    padding-left: 12px;
+}
+
+.step__description {
+    color: #7c8ba1;
+    font-size: 14px;
+    font-weight: 500;
+    padding:0 40px;
+}
+
+.step__title {
+    font-size: 20px;
+    color: rgb(36, 62, 99)
+}
+
+.step__para {
+    padding-right: 72px;
+    padding-top: 12px;
+}
+
+.step__description--register {
+    padding-left: 48px;
 }
