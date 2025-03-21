@@ -377,10 +377,16 @@ STEPS
 }
 
 .step__para {
-    padding-right: 72px;
-    padding-top: 12px;
+    padding-right: 200px;
 }
 
 .step__description--register {
     padding-left: 48px;
 }
+
+/*
+
+PRICING
+
+*/
+
