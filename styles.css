@@ -71,7 +71,6 @@ nav {
 .nav__link:hover {
   color: #6415ff;
   text-decoration: underline;
-
 }
 
 .nav__link--primary {
@@ -129,6 +128,7 @@ line-height: 1.5;
   z-index: 1;
   transition: border-color 300ms;
 }
+
 
 .purple__email {
   z-index: 2;
@@ -196,6 +196,16 @@ line-height: 1.5;
   opacity: 0.5;
 }
 
+.header__blob {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.05;
+  width: 256px;
+  height: 256px;
+  transform: matrix(1, 0, 0, 1, -163, 0);
+}
+
 /*
 
 FEATURES 
@@ -261,6 +271,16 @@ FEATURES
   font-size: 16px;
 }
 
+.features__blob {
+  transform: translateX(96px) translateY(1000px) scaleX(1) scaleY(1);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 16rem;
+  opacity: 0.25;
+  padding: 16px;
+}
+
 /*
 
 QUALITY WORK
@@ -314,6 +334,11 @@ QUALITY WORK
   border: none;
   padding: 8px 24px;
   transition: all 300ms;
+  cursor: pointer;
+}
+
+.section__button--button:hover {
+  background-color: rgba (60,13,153);
 }
 
 .quality__img--wrapper {
@@ -330,6 +355,21 @@ QUALITY WORK
   width: 100%;
   height: 300px;
   border: 1px solid rgb(229, 231, 235);
+  z-index: 1;
+}
+
+.quality__grid {
+  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  fill: rgb(100, 21, 255);
+  --tw-text-opacity: 1;
+  color: rgba(100, 21, 255, var(--tw-text-opacity));
+  z-index: 0;
+  display: block;
 }
 
 /*
@@ -600,6 +640,17 @@ PRICING
     rgb(254, 178, 178) 100%);
 }
 
+.plans__blob {
+  z-index: -10;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-40%) translateY(1260%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
+}
+
 /*
 
 FOOTER 
@@ -662,3 +713,24 @@ footer {
     font-weight: bold;
 }
 
+.footer__blob--1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  transform: translateX(-90px) translateY(-220px);
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.footer__blob--2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 320px;
+  height: 320px;
+  transform: translateX(128px) translateY(220px);
+  z-index: 1;
+  opacity: 0.5;
+}
