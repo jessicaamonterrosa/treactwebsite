@@ -326,7 +326,7 @@ QUALITY WORK
 }
 
 .section__button--button {
-  border-radius: 9999px;
+  border-radius: 12000px;
   background-color: #6415ff;
   font-weight: 700;
   color: #fff;
@@ -438,6 +438,86 @@ STEPS
 .step__description--register {
   padding-left: 48px;
 }
+
+/*
+
+VALUES
+
+*/
+
+.values__row {
+  display: flex;
+  height: 600px;
+}
+
+.section__title--values {
+  padding: 4px 0px;
+}
+
+.section__para--values {
+  padding-bottom: 30px;
+}
+
+.values__description {
+  width: 50%;
+}
+
+.value__details {
+  display: flex;
+}
+.value__image--wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.value__image--img {
+  width: 700px;
+  height: 700px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value__description--title {
+  display: flex;
+}
+
+.value__logo {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.value__logo--affordable {
+    background-color: #9ae6b4;
+}
+
+.value__logo--professionalism {
+    background-color: #feb2b2;
+}
+
+.value__name {
+  padding-left: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.value__description--para {
+  padding-right: 24px;
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 4px;
+  line-height: 1.625;
+  color: #718096;
+}
+
+
 
 /*
 
@@ -645,10 +725,51 @@ PRICING
   position: absolute;
   left: 0;
   bottom: 0;
-  transform: translateX(-40%) translateY(1260%) scaleX(1) scaleY(1);
+  transform: translateX(-40%) translateY(1600%) scaleX(1) scaleY(1);
   height: 256px;
   width: 256px;
   opacity: 0.25;
+}
+
+/*
+
+TESTIMONIALS
+
+*/
+
+.testimonials__row {
+  width: 100%;
+  display: flex;
+}
+
+.testimonials__image--wrapper {
+  width: 50%
+}
+
+.testimonials__image {
+  width: 600px;
+  height: 600px;
+}
+
+.testimonials__description {
+  width: 50%;
+}
+
+.testimonial__text--header {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(36, 62, 99);
+}
+
+.testimonial__text--para {
+  color: rgb(36, 62, 99);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonial__button {
+  border-radius: 100%;
 }
 
 /*
@@ -681,6 +802,10 @@ footer {
     line-height: 2;
     font-size: 14px;
     font-weight: 500;
+}
+
+.link__subtitle:hover {
+  text-decoration: underline;
 }
 
 .footer__bottom {
