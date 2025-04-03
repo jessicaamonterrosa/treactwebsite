@@ -1009,3 +1009,42 @@ footer {
   z-index: 1;
   opacity: 0.5;
 }
+
+
+/*
+
+FOR TABLETS
+
+*/
+
+@media (max-width: 768px)
+
+{.nav__links
+  {
+    display:none
+  }
+
+  .nav__logo
+  {
+    padding-left: 80px;
+  }
+
+  .header__row
+  {
+    display:block;
+    justify-content: center;
+  }
+
+  .header__description  
+  {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .purple__foryou
+  {
+    display: inline-block;
+  }
+}
