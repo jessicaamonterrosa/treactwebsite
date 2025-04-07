@@ -1026,7 +1026,7 @@ FOR TABLETS
 
   .nav__logo
   {
-    padding-left: 80px;
+    padding-left: 10px;
   }
 
   .header__row
@@ -1041,10 +1041,267 @@ FOR TABLETS
     display: flex;
     align-items: center;
     margin: 0 auto;
+    width: 500px;
+    height: 300px;
+  }
+
+  .header__description--header 
+  {
+    font-size: 30px;
   }
 
   .purple__foryou
   {
-    display: inline-block;
+    font-size: 30px;
+    display: inline-block;  
   }
-}
+
+  .customer__logo--header
+  {
+    margin-top: 50px;
+  }
+
+  .header__image--wrapper 
+  {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .header__image{
+    width: 500px;
+  }
+
+  .header__blob
+  {
+
+  }
+
+  .features__section--para
+  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 50px;
+   padding-right: 50px;
+  }
+
+  .features__section--text
+  {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .features__services--description
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .features__service
+  {
+    width: auto;
+    max-width: 360px;
+  }
+
+  .quality__row 
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .quality__img--wrapper
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .quality__img
+  {
+    width: 500px;
+  }
+
+  .quality__grid
+  {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: -50px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+  }
+
+  .quality__description
+  {
+    padding-top: 100px;
+    text-align: center;
+    max-width: 576px;
+    width: 448px;
+    margin-right: 0px;
+
+  }
+
+  .section__title--quality
+  {
+  font-size: 25px;
+  width: 600px;
+  margin: 0 auto;
+  padding-right: 150px;
+
+  }
+
+  .purple
+  {
+  display: inline-block;
+  }
+
+  .section__para
+  {
+    font-size: 14px;
+  }
+
+  .steps__row
+  {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .steps__image--wrapper
+  {
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  .steps__image
+  {
+    width: 450px;
+  }
+
+  .steps__description
+  {
+    padding-top: 45px;
+    padding-left: 0;
+  }
+
+  .section__tag
+  {
+    text-align: center;
+  }
+
+  .section__title
+  {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1;
+
+  }
+
+  .steps__list
+  {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .step 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step__title
+  {
+    padding: 10px;
+  }
+
+  .step__number
+  {
+    font-weight: bold;
+  }
+
+  .step__para
+  {
+    padding-left: 160px;
+    padding-right: 160px;
+    line-height: 2;
+  }
+
+  .values__row 
+  {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 50px;
+  }
+ 
+  .value__image--wrapper {
+    margin: 0 auto;
+    padding-top: 250px;
+    padding-right: 150px;
+  }
+  .value__image
+  {
+    width: 500px;
+    height: 500px;
+  }
+
+  .value__image--img
+  {
+    width: 600px;
+    height: 600px;
+    padding-top: 350px;
+    margin: 0 aut0;  
+  }
+
+  .values__description
+  {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 175px;
+  }
+
+  .section__title--values
+  {
+    width: 500px;
+    margin: 0 auto;
+    padding-right: 125px;
+    line-height: 1.5;
+  }
+
+  .section__para--values
+  {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 120px;
+  }
+
+  .value__details 
+  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .value__description--para
+  {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    padding-right: 120px;
+  }
+
+  .value__description--title
+  {
+    margin: 0 auto;
+    padding-left: 75px;
+  }
