@@ -165,8 +165,7 @@ line-height: 1.5;
 .purple__foryou {
   font-size: 48px;
   color: #6415ff;
-  display: flex;
-  justify-content: flex-start;
+  display: inline-block;
   padding-bottom: 14px;
 }
 
@@ -1244,7 +1243,6 @@ FOR TABLETS
  
   .value__image--wrapper {
     margin: 0 auto;
-    padding-top: 250px;
     padding-right: 150px;
   }
   .value__image
@@ -1304,4 +1302,22 @@ FOR TABLETS
   {
     margin: 0 auto;
     padding-left: 75px;
+  }
+
+  .section__button--values 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__title--pricing
+  {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+
+  .section__para--pricing
+  {
+    padding: 15px
   }
